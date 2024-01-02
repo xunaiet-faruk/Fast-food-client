@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Alice",
+        "feedback_details": "A good restaurant is like a vacation; it transports you, and it becomes a lot more than just about the food. All great deeds and all great thoughts",
+        "rating": 4.5,
+        "image_url": "https://i.ibb.co/WyqrDz3/quote.png"
+    },
+    {
+        "name": "Bob",
+        "feedback_details": "I had an amazing experience with this service. The product arrived earlier than expected and was exactly what I needed. .",
+        "rating": 5,
+        "image_url": "https://i.ibb.co/WyqrDz3/quote.png"
+    },
+    {
+        "name": "Charlie",
+        "feedback_details": "The product I received was of top-notch quality. It surpassed all my expectations. The product arrived earlier than expected and was exactly what I needed.!",
+        "rating": 3,
+        "image_url": "https://i.ibb.co/WyqrDz3/quote.png"
+    },
+    {
+        "name": "David",
+        "feedback_details": "The service provided was decent, but there's room for improvement. The delivery was a bit delayed, which affected my overall experience",
+        "rating": 4.8,
+        "image_url": "https://i.ibb.co/WyqrDz3/quote.png"
+    },
+    {
+        "name": "Eva",
+        "feedback_details": "Overall, my experience was positive. The product met my expectations, and the buying process was smooth. However, a little more variety in product options would be nice.",
+        "rating": 4,
+        "image_url": "https://i.ibb.co/WyqrDz3/quote.png"
+    },
+    {
+        "name": "Frank",
+        "feedback_details": "I encountered some issues with the delivery, which disappointed me. The delay affected my plans, and I was expecting a better service level.",
+        "rating": 2.5,
+        "image_url": "https://i.ibb.co/WyqrDz3/quote.png"
+    }
+]
