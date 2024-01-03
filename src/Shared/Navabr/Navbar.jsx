@@ -14,7 +14,7 @@ const Navbar = () => {
         <li><NavLink
             to="/menu"
             className={({ isActive, isPending }) =>
-                isPending ? "bg-red-600 text-white" : isActive ? "active" : ""
+                isPending ? "" : isActive ? "bg-red-600 text-white" : ""
             }
         >
           Menu
@@ -55,7 +55,7 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div className="navbar fixed z-10 bg-opacity-50 bg-black text-white rounded-b-2xl">
+            <div className="navbar  z-10 bg-opacity-50 bg-black text-white rounded-b-2xl">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

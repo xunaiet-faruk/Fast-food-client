@@ -1,0 +1,432 @@
+[
+    {
+        "name": "Classic Burger",
+        "image": "https://i.ibb.co/XpHYzwP/burger-receipe-1.png",
+        "price": 5.99,
+        "categori" :"burger",
+        "discount": 0.5
+    },
+    {
+        "name": "Cheeseburger Deluxe",
+        "image": "https://i.ibb.co/sFrHJKT/burger-receipe-2.png",
+        "price": 6.49,
+        "categori": "burger",
+        "discount": 0.3
+    },
+    {
+    "name": "Bacon BBQ Burger",
+        "image": "https://i.ibb.co/9Wng0NY/burger-receipe-3.png",
+        "price": 7.99,
+        "categori": "burger",
+        "discount": 0.2
+    },
+    {
+        "name": "Mushroom Swiss Burger",
+        "image": "https://i.ibb.co/Z11s07g/burger-receipe-4.png",
+        "price": 6.99,
+        "categori": "burger",
+        "discount": 0.4
+    },
+    {
+        "name": "Spicy Jalapeno Burger",
+        "image": "https://i.ibb.co/sFrHJKT/burger-receipe-2.png",
+        "price": 6.79,
+        "categori": "burger",
+        "discount": 0.25
+    },
+    {
+        "name": "Veggie Burger",
+        "image": "https://i.ibb.co/zf8zsWF/burger-receipe-6.png",
+        "price": 5.49,
+        "categori": "burger",
+        "discount": 0.3
+    },
+    {
+        "name": "Double Patty Burger",
+        "image": "https://i.ibb.co/Ph6LsHg/burger-receipe-8.png",
+        "price": 8.49,
+        "categori": "burger",
+        "discount": 0.1
+    },
+    {
+        "name": "Teriyaki Chicken Burger",
+        "image": "https://i.ibb.co/SfXxsZd/burger-receipe-7.png",
+        "price": 7.29,
+        "categori": "burger",
+        "discount": 0.15
+    },
+    {
+        "name": "Black Bean Burger",
+        "image": "https://i.ibb.co/sFrHJKT/burger-receipe-2.png",
+        "price": 6.59,
+        "categori": "burger",
+        "discount": 0.2
+    },
+    {
+      "name": "Turkey Burger",
+        "image": "https://i.ibb.co/sFrHJKT/burger-receipe-2.png",
+        "price": 6.89,
+        "categori": "burger",
+        "discount": 0.25
+    },
+
+
+
+
+
+    {
+        "name": "Margherita Pizza",
+        "image": "https://i.ibb.co/gTfXcJ2/pizza-receipe-1.png",
+        "price": 9.99,
+        "categori": "pizza",
+        "discount": 0.2
+    },
+    {
+        "name": "Pepperoni Pizza",
+        "image": "https://i.ibb.co/09MhVYf/pizza-receipe-2.png",
+        "price": 11.49,
+        "categori": "pizza",
+        "discount": 0.15
+    },
+    {
+        "name": "Supreme Pizza",
+        "image": "https://i.ibb.co/QmnmvG6/pizza-receipe-3.png",
+        "price": 12.99,
+        "discount": 0.25
+    },
+    {
+        "name": "Vegetarian Pizza",
+        "image": "https://i.ibb.co/N9p8fp1/pizza-receipe-4.png",
+        "price": 10.99,
+        "categori": "pizza",
+        "discount": 0.3
+    },
+    {
+        "name": "Hawaiian Pizza",
+        "image": "https://i.ibb.co/W2TJPWP/pizza-receipe-5.png",
+        "price": 11.79,
+        "categori": "pizza",
+        "discount": 0.2
+    },
+    {
+        "name": "BBQ Chicken Pizza",
+        "image": "https://i.ibb.co/MfKD6Gk/pizza-receipe-3.png",
+        "price": 13.49,
+        "categori": "pizza",
+        "discount": 0.2
+    },
+    {
+        "name": "Meat Lover's Pizza",
+        "image": "https://i.ibb.co/gTfXcJ2/pizza-receipe-1.png",
+        "price": 14.99,
+        "categori": "pizza",
+        "discount": 0.25
+    },
+    {
+        "name": "Mushroom Pizza",
+        "image": "https://i.ibb.co/gTfXcJ2/pizza-receipe-1.png",
+        "price": 10.79,
+        "categori": "pizza",
+        "discount": 0.15
+    },
+    {
+        "name": "Buffalo Chicken Pizza",
+        "image": "https://i.ibb.co/W2TJPWP/pizza-receipe-5.png",
+        "price": 12.89,
+        "categori": "pizza",
+        "discount": 0.3
+    },
+    {
+    "name": "White Pizza",
+        "image": "https://i.ibb.co/W2TJPWP/pizza-receipe-5.png",
+        "price": 11.59,
+        "categori": "pizza",
+        "discount": 0.1
+    },
+
+
+
+
+
+    {
+        "name": "Classic BLT Sandwich",
+        "image": "https://i.ibb.co/MVHvN4f/sandwitch-receipe-1.png",
+        "price": 6.99,
+        "categori": "sandwich",
+        "discount": 0.15
+    },
+    {
+        "name": "Grilled Cheese Sandwich",
+        "image": "https://i.ibb.co/5jgmyCG/sandwitch-receipe-2.png",
+        "price": 5.49,
+        "categori": "sandwich",
+        "discount": 0.1
+    },
+    {
+        "name": "Club Sandwich",
+        "image": "https://i.ibb.co/MkZy2hH/sandwitch-receipe-4.png",
+        "price": 7.99,
+        "categori": "sandwich",
+        "discount": 0.2
+    },
+    {
+        "name": "Tuna Salad Sandwich",
+        "image": "https://i.ibb.co/k9dpJH9/sandwitch-receipe-5.png",
+        "price": 6.49,
+        "categori": "sandwich",
+        "discount": 0.15
+    },
+    {
+        "name": "Turkey and Avocado Sandwich",
+        "image": "https://i.ibb.co/BBQbHjc/sandwitch-receipe-6.png",
+        "price": 8.29,
+        "categori": "sandwich",
+        "discount": 0.25
+    },
+    {
+        "name": "Egg Salad Sandwich",
+        "image": "https://i.ibb.co/SRby52P/sandwitch-receipe-7.png",
+        "price": 5.99,
+        "discount": 0.1
+    },
+    {
+        "name": "Ham and Cheese Croissant",
+        "image": "https://i.ibb.co/hRvg9BF/sandwitch-receipe-9.png",
+        "price": 7.49,
+        "categori": "sandwich",
+        "discount": 0.2
+    },
+    {
+        "name": "Roast Beef Panini",
+        "image": "https://i.ibb.co/hHbPd3b/sandwitch-receipe-8.png",
+        "price": 8.99,
+        "categori": "sandwich",
+        "discount": 0.3
+    },
+    {
+        "name": "Caprese Sandwich",
+        "image": "https://i.ibb.co/Xz5McC4/sandwitch-receipe-3.png",
+        "price": 7.79,
+        "categori": "sandwich",
+        "discount": 0.2
+    },
+    {
+    "name": "Chicken Caesar Wrap",
+        "image": "https://i.ibb.co/MVHvN4f/sandwitch-receipe-1.png",
+        "price": 7.29,
+        "categori": "sandwich",
+        "discount": 0.15
+    },
+
+
+    {
+        "name": "Vanilla Milkshake",
+        "image": "https://i.ibb.co/g63X3nJ/shake-receipe-4.png",
+        "price": 4.99,
+        "categori": "milkshake",
+        "discount": 0.1
+    },
+    {
+        "name": "Chocolate Milkshake",
+        "image": "https://i.ibb.co/kx1R51c/shake-receipe-8.png",
+        "price": 5.49,
+        "categori": "milkshake",
+        "discount": 0.15
+    },
+    {
+        "name": "Strawberry Milkshake",
+        "image": "https://i.ibb.co/g63X3nJ/shake-receipe-4.png",
+        "price": 5.29,
+        "categori": "milkshake",
+        "discount": 0.2
+    },
+    {
+    "name": "Banana Milkshake",
+        "image": "https://i.ibb.co/kQ3VrjH/shake-receipe-7.png",
+        "price": 5.99,
+        "categori": "milkshake",
+        "discount": 0.25
+    },
+    {
+    "name": "Oreo Milkshake",
+        "image": "https://i.ibb.co/5hrdBfT/shake-receipe-9.png",
+        "price": 6.49,
+        "categori": "milkshake",
+        "discount": 0.3
+    },
+    {
+    "name": "Caramel Milkshake",
+        "image": "https://i.ibb.co/NnvhQPN/shake-receipe-2.png",
+        "price": 6.29,
+        "categori": "milkshake",
+        "discount": 0.2
+    },
+    {
+        "name": "Peanut Butter Milkshake",
+        "image": "https://i.ibb.co/YpvSP9z/image-removebg-preview-22.png",
+        "price": 6.99,
+        "categori": "milkshake",
+        "discount": 0.25
+    },
+    {
+        "name": "Mint Chocolate Chip Milkshake",
+        "image": "https://i.ibb.co/0ysymcx/shake-receipe-6.png",
+        "price": 6.79,
+        "categori": "milkshake",
+        "discount": 0.2
+    },
+
+
+
+
+    {
+        "name": "Vanilla Ice Cream",
+        "image": "https://i.ibb.co/bWmL9TC/icecream-receipe-1.png",
+        "price": 3.99,
+        "categori": "ice-cream",
+        "discount": 0.1
+    },
+    {
+        "name": "Chocolate Ice Cream",
+        "image": "https://i.ibb.co/rk8QWyZ/icecream-receipe-2.png",
+        "price": 4.49,
+        "categori": "ice-cream",
+        "discount": 0.15
+    },
+    {
+        "name": "Strawberry Ice Cream",
+        "image": "https://i.ibb.co/tM01NZY/icecream-receipe-4.png",
+        "price": 4.29,
+        "categori": "ice-cream",
+        "discount": 0.2
+    },
+    {
+        "name": "Mint Chip Ice Cream",
+        "image": "https://i.ibb.co/wyW6VSk/icecream-receipe-3.png",
+        "price": 4.99,
+        "categori": "ice-cream",
+        "discount": 0.25
+    },
+    {
+        "name": "Rocky Road Ice Cream",
+        "image": "https://i.ibb.co/chcLJyB/icecream-receipe-5.png",
+        "price": 5.49,
+        "categori": "ice-cream",
+        "discount": 0.3
+    },
+    {
+        "ice-cream": "Butter Pecan Ice Cream",
+        "image": "https://i.ibb.co/2KHh7wj/icecream-receipe-6.png",
+        "price": 5.29,
+        "categori": "ice-cream",
+        "discount": 0.2
+    },
+    {
+        "name": "Cookies and Cream Ice Cream",
+        "image": "https://i.ibb.co/sRFgXLt/icecream-receipe-7.png",
+        "price": 5.99,
+        "categori": "ice-cream",
+        "discount": 0.25
+    },
+    {
+        "name": "Pistachio Ice Cream",
+        "image": "https://i.ibb.co/2KHh7wj/icecream-receipe-6.png",
+        "price": 5.79,
+        "categori": "ice-cream",
+        "discount": 0.2
+    },
+    {
+        "name": "Caramel Swirl Ice Cream",
+        "image": "https://i.ibb.co/qM3t42b/image-removebg-preview-23.png",
+        "price": 4.79,
+        "categori": "ice-cream",
+        "discount": 0.15
+    },
+    {
+        "name": "Fudge Ripple Ice Cream",
+        "image": "https://i.ibb.co/fHjYLGz/image-removebg-preview-24.png",
+        "price": 5.49,
+        "categori": "ice-cream",
+        "discount": 0.2
+    },
+
+
+
+    {
+        "name": "Chocolate Cake",
+        "image": "https://i.ibb.co/zHzW4Wt/dessert-receipe-2.png",
+        "price": 7.99,
+        "categori": "cake",
+        "discount": 0.2
+    },
+    {
+        "name": "Apple Pie",
+        "image": "https://example.com/apple-pie.jpg",
+        "price": 6.49,
+        "categori": "cake",
+        "discount": 0.15
+    },
+    {
+        "name": "Cheesecake",
+        "image": "https://i.ibb.co/nP6D3K3/dessert-receipe-1.png",
+        "price": 8.99,
+        "categori": "cake",
+        "discount": 0.25
+    },
+    {
+        "name": "Cupcakes",
+        "image": "https://i.ibb.co/WFGSnb3/dessert-receipe-8.png",
+        "price": 4.99,
+        "categori": "cake",
+        "discount": 0.1
+    },
+    {
+        "name": "Ice Cream Sundae",
+        "image": "https://i.ibb.co/dcs3GfQ/dessert-receipe-9.png",
+        "price": 5.99,
+        "categori": "cake",
+        "discount": 0.2
+    },
+    {
+        "name": "Fruit Tart",
+        "image": "https://i.ibb.co/jgn7YtJ/dessert-receipe-5.png",
+        "price": 6.79,
+        "categori": "cake",
+        "discount": 0.3
+    },
+    {
+        "name": "Brownies",
+        "image": "https://i.ibb.co/K27KTCD/dessert-receipe-3.png",
+        "price": 5.49,
+        "categori": "cake",
+        "discount": 0.25
+    },
+    {
+        "name": "Panna Cotta",
+        "image": "https://i.ibb.co/0FRSjZ6/dessert-receipe-4.png",
+        "price": 7.29,
+        "categori": "cake",
+        "discount": 0.15
+    },
+    {
+        "name": "Tiramisu",
+        "image": "https://i.ibb.co/f8KbwgF/dessert-receipe-6.png",
+        "price": 8.49,
+        "categori": "cake",
+        "discount": 0.2
+    },
+    {
+        "name": "Mousse",
+        "image": "https://i.ibb.co/XCFZpNm/image-removebg-preview-25.png",
+        "price": 6.89,
+        "categori": "cake",
+        "discount": 0.1
+    }
+
+
+
+
+  
+
+
+]

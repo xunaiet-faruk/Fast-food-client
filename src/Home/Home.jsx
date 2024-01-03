@@ -9,13 +9,13 @@ import Navbar from "../Shared/Navabr/Navbar";
 const Home = () => {
     return (
         <div>
-           <Navbar/>
+        
            <Banner/>
            <Speacial/>
            <Bestfood/>
            <Works/>
            <Feedback/>
-           <Fotter/> 
+         
         </div>
     );
 };

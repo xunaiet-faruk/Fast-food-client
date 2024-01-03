@@ -1,10 +1,15 @@
+import { Outlet } from "react-router-dom";
 import Home from "../Home/Home";
+import Navbar from "../Shared/Navabr/Navbar";
+import Fotter from "../Shared/Fotter/Fotter";
 
 
 const Mainlayout = () => {
     return (
         <div>
-            <Home/>
+            <Navbar/>
+            <Outlet/>
+            <Fotter /> 
         </div>
     );
 };
