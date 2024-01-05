@@ -3,8 +3,8 @@ import { FaShoppingBasket } from "react-icons/fa";
 
 const Foodlist = ({item}) => {
     return (
-        <div className="hover:font-bold mb-12 mt-12">
-            <div className="bg-gray-900 hover:bg-yellow-400 justify-between flex gap-5 shadow-2xl w-96 h-28 rounded-xl">
+        <div className="hover:font-bold mt-12">
+            <div className="bg-gray-900 hover:bg-yellow-400 justify-between flex gap-5 shadow-2xl w-96 h-28  rounded-tr-full rounded-bl-full">
            <img src={item?.image} alt="" />
            <div className="">
                 <h1 className="text-white mt-6">{item?.name}</h1>

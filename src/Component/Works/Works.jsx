@@ -4,7 +4,7 @@ import { RiEBike2Line } from "react-icons/ri";
 
 const Works = () => {
     return (
-        <div className="mb-20 mt-12">
+        <div className="mb-20 mt-12 max-w-screen-xl mx-auto">
             <div className="bg-white rounded-tr-full space-y-3 rounded-bl-full w-full h-[300px]">
                 <h1 className="text-5xl font-semibold text-center text-[#FFCC00] pt-5"> How It Works</h1>
                 <p className="text-center text-xl font-semibold italic">Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque.<br/> Vivamus

@@ -17,7 +17,7 @@ import { MdOutlineVilla } from 'react-icons/md'
 export const categories = [
     {
         label: 'Beach',
-        icon: FaPizzaSlice,
+        image: "https://i.ibb.co/QCD9m2V/menu-2.png",
         description: 'This property is close to the beach!',
     },
     {

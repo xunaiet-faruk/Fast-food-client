@@ -54,7 +54,7 @@ const Navbar = () => {
     
     </>
     return (
-        <div>
+        <div className="max-w-screen-xl mx-auto">
             <div className="navbar  z-10 bg-opacity-50 bg-black text-white rounded-b-2xl">
                 <div className="navbar-start">
                     <div className="dropdown">

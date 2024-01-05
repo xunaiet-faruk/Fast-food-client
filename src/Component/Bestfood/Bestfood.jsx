@@ -2,7 +2,7 @@
 
 const Bestfood = () => {
     return (
-        <div className="">
+        <div className="max-w-screen-xl mx-auto">
             <h1 className="text-[#FFCC00] text-2xl font-semibold text-center mb-2 mt-16">BEST FOOD MENU</h1>
             <h1 className="text-white text-5xl font-semibold text-center">Choose Your Best Menus</h1>
             <div className="flex gap-12 p-12">

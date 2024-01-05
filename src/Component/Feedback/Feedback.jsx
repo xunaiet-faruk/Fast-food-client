@@ -20,7 +20,7 @@ const Feedback = () => {
         progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
     };
     return (
-        <div className="mt-12 p-12">
+        <div className="mt-12 p-12 max-w-screen-xl mx-auto">
             <h1 className="text-[#FFCC00] ml-12 font-semibold">TESTIMONIALS & REVIEWS</h1>
             <h1 className="text-white text-5xl font-bold ml-12 mt-2">Our Customar <br/> Feedbacks</h1>
             <div className="flex justify-between">
@@ -81,12 +81,12 @@ const Feedback = () => {
                     </Swiper>
                </div>
                
-                <div className="">
+                <div className="max-w-screen-xl mx-auto">
 
-                        <div className="relative">
+                        <div className="relative ml-44">
                         <img className="w-[500px] rounded-xl" src={"https://i.ibb.co/dMSTDwD/image.png"} alt="" />
                         </div>
-                        <div className="absolute -mt-48 left-[640px]">
+                        <div className=" absolute -mt-48 left-[640px]">
                         <img className="w-60 rounded-full" src={"https://winsfolio.net/html/foodio/assets/img/bratlee-hamint-3.jpg"} alt="" />
                         </div>
                         <div className="absolute -mt-[520px] left-[640px]">

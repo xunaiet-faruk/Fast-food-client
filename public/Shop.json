@@ -1,0 +1,229 @@
+[
+    {
+        "name": "Classic Beef Burger",
+        "rating": 4.5,
+        "image": "https://i.ibb.co/RvSbcPw/image.png",
+        "short_description": "A timeless favorite featuring a juicy beef patty, fresh veggies, and special sauce.",
+        "price": 5.99,
+        "privious": 7.1
+    },
+    {
+        "name": "Double Cheeseburger ",
+        "rating": 4.8,
+        "image": "https://i.ibb.co/PFFnmnY/image.png",
+        "short_description": "Two layers of beef, melted cheese, lettuce, and pickles in a sesame seed bun.",
+        "price": 7.49,
+        "privious": 8.10
+    },
+    {
+        "name": "Spicy Sriracha Burger",
+        "rating": 4.3,
+        "image": "https://i.ibb.co/p23YCmY/image.png",
+        "short_description": "A fiery delight with a spicy sriracha-infused patty and zesty toppings.",
+        "price": 6.29,
+        "privious": 7.1
+    },
+    {
+        "name": "Mushroom Swiss Burger",
+        "rating": 4.6,
+        "image": "https://i.ibb.co/PhTr9G4/image.png",
+        "short_description": "Savor the flavor with sautéed mushrooms, Swiss cheese, and a succulent beef patty.",
+        "price": 6.99,
+        "privious": 8.10
+    },
+    {
+        "name": "BBQ Bacon Burger",
+        "rating": 4.7,
+        "image": "https://i.ibb.co/ZdgXhsc/image.png",
+        "short_description": "Indulge in BBQ goodness with crispy bacon strips and tangy barbecue sauce.",
+        "price": 7.79,
+        "privious": 8.20
+    },
+    {
+        "name": "Veggie Burger Deluxe",
+        "rating": 4.2,
+        "image": "https://i.ibb.co/dB8yR1y/image.png",
+        "short_description": "A delicious meat-free option loaded with fresh vegetables and flavorful sauce.",
+        "price": 5.49,
+        "privious": 6.40
+    },
+    {
+        "name": "Pepperoni Passion Pizza",
+        "rating": 4.6,
+        "image": "https://i.ibb.co/Brfppt0/image.png",
+        "short_description": "Classic pepperoni slices with melted cheese on a crispy crust.",
+        "price": 9.99,
+        "privious": 11.40
+    },
+    {
+        "name": "Supreme Delight Pizza",
+        "rating": 4.8,
+        "image": "https://i.ibb.co/9VNTTV7/image.png",
+        "short_description": "Loaded with sausage, peppers, onions, olives, and more.",
+        "price": 11.49,
+        "privious": 16.40
+    },
+    {
+        "name": "Margarita Bliss Pizza",
+        "rating": 4.7,
+        "image": "https://i.ibb.co/s2Bxy16/image.png",
+        "short_description": "Fresh tomatoes, basil, and mozzarella for a simple yet delicious flavor.",
+        "price": 8.99,
+        "privious": 10.40
+    },
+    {
+        "name": "BBQ Chicken Crunch Pizza",
+        "rating": 4.4,
+        "image": "https://i.ibb.co/1nWQ35R/image.png",
+        "short_description": "Tangy barbecue sauce, grilled chicken, and onions on a crispy crust.",
+        "price": 10.29,
+        "privious": 16.40
+    },
+    {
+        "name": "Hawaiian Paradise Pizza",
+        "rating": 4.5,
+        "image": "https://i.ibb.co/m6NfGG7/image.png",
+        "short_description": "A taste of the tropics with ham, pineapple, and a savory blend of flavors.",
+        "price": 9.79
+       
+    },
+    {
+        "name": "Veggie Supreme Pizza",
+        "rating": 4.3,
+        "image": "https://i.ibb.co/89Bgsnt/image.png",
+        "short_description": "A medley of fresh vegetables including peppers, onions, and mushrooms.",
+        "price": 9.49,
+        "privious": 10.40
+    },
+
+ 
+
+
+
+
+
+    {
+        "name": "Classic Chocolate Shake",
+        "rating": 4.7,
+        "image": "https://i.ibb.co/Dp18MLY/image.png",
+        "short_description": "Rich and creamy chocolate shake topped with whipped cream.",
+        "price": 4.99,
+      "privious": 5.40
+    }, 
+    {
+        "name": "Banana Dream Shake",
+        "rating": 4.5,
+        "image": "https://i.ibb.co/C5F2f6X/image.png",
+        "short_description": "Smooth vanilla shake with a hint of sweetness.",
+        "price": 4.49,
+      "privious": 6.40
+    },
+    {
+        "name": "Strawberry Bliss Shake",
+        "rating": 4.6,
+        "image": "https://i.ibb.co/HPGHNVp/image.png",
+        "short_description": "Fresh strawberry shake blended to perfection.",
+        "price": 5.29
+        
+    },
+    {
+        "name": "Green Apple Shake",
+        "rating": 4.8,
+        "image": "https://i.ibb.co/M7B08z1/image.png",
+        "short_description": "Decadent Oreo shake loaded with cookie pieces.",
+        "price": 5.99,
+        "privious": 6.23
+    },
+
+
+
+
+
+    {
+        "name": "Creamy Alfredo Pasta",
+        "rating": 4.6,
+        "image": "https://i.ibb.co/q7WVL4G/image.png",
+        "short_description": "Fettuccine pasta coated in a rich and creamy Alfredo sauce.",
+        "price": 10.99,
+        "privious": 11.23
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "rating": 4.8,
+        "image": "https://i.ibb.co/qNgrzRv/image.png",
+        "short_description": "Spaghetti with hearty meat sauce and Parmesan cheese.",
+        "price": 9.49,
+        "privious": 10.23
+    },
+    {
+        "name": "Pesto Paradise Pasta",
+        "rating": 4.5,
+        "image": "https://i.ibb.co/bjVVHmv/image.png",
+        "short_description": "Penne pasta tossed in a flavorful basil pesto sauce.",
+        "price": 11.29,
+        "privious": 12.00
+    },
+
+
+
+
+
+
+
+
+    {
+        "name": "Classic French Fries",
+        "rating": 4.7,
+        "image": "https://i.ibb.co/5x5nsQ4/image.png",
+        "short_description": "Crispy and golden fries seasoned to perfection.",
+        "price": 2.99,
+        "privious": 3.10
+    },
+    {
+        "name": "Loaded Cheese Fries",
+        "rating": 4.5,
+        "image": "https://i.ibb.co/hVQTNcF/image.png",
+        "short_description": "French fries topped with melted cheese and bacon bits.",
+        "price": 4.49,
+        "privious": 5.10
+    },
+    {
+        "name": "Garlic Parmesan Fries",
+        "rating": 4.6,
+        "image": "https://i.ibb.co/SfBZvQD/image.png",
+        "short_description": "Fries tossed in garlic and Parmesan for a flavorful twist.",
+        "price": 3.99,
+        "privious": 5.10
+    },
+
+
+
+
+
+
+    {
+        "name": "Italian Hunny Breadsticks",
+        "rating": 4.6,
+        "image": "https://i.ibb.co/1ZnbsjQ/image.png",
+        "short_description": "Crispy breadsticks infused with garlic and herbs.",
+        "price": 3.49,
+        "privious": 5.10
+    },
+    {
+        "name": "Chocolate Bread",
+        "rating": 4.5,
+        "image": "https://i.ibb.co/ZxC2MT3/image.png",
+        "short_description": "Nutritious whole wheat bread perfect for sandwiches.",
+        "price": 2.99,
+        "privious": 3.10
+    },
+    {
+        "name": "French Baguette",
+        "rating": 4.7,
+        "image": "https://i.ibb.co/9GDVwW5/image.png",
+        "short_description": "Classic French bread with a crusty exterior and soft interior.",
+        "price": 4.29,
+        "privious": 5.10
+    }
+
+]

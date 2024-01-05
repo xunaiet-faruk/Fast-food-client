@@ -1,0 +1,38 @@
+[
+    {
+        "number": "Combo 1",
+        "name": "2 Burgers With French Fries",
+        "price": 49.99,
+        "image":"https://i.ibb.co/8XLZ6Qg/combo-1.jpg"
+    },
+    {
+        "number": "Combo 2",
+        "name": "3 pizza  In 1 Combo Pack",
+        "price": 14.49,
+        "image":"https://i.ibb.co/Dp23w54/combo-2.jpg"
+    },
+    {
+        "number": "Combo 3",
+        "name": "3 Burger With Cold Drinks",
+        "price": 35.29,
+        "image": "https://i.ibb.co/hXf7k8v/combo-3.jpg"
+    },
+    {
+        "number": "Combo 4",
+        "name": "3 Burger  With Drinks & Salad",
+        "price": 27.99,
+        "image": "https://i.ibb.co/6R44QQh/combo-4.jpg"
+    },
+    {
+        "number": "Combo 5",
+        "name": "fresh Cocktails 30%  off",
+        "price": 10.79,
+        "image": "https://i.ibb.co/V2H4jZP/bbq-1.jpg"
+    },
+    {
+        "number": "Combo 6",
+        "name": "2 sandwitch  With French Fries",
+        "price": 12.49,
+        "image": "https://i.ibb.co/fMQx0kL/image.png"
+    }
+]

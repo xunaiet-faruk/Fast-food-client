@@ -4,6 +4,7 @@ import 'react-tabs/style/react-tabs.css';
 import Usemenus from '../../Hooks/Usemenus';
 import { useState } from 'react';
 import Foodlist from '../../Component/Foodcart/Foodlist';
+import { Link } from 'react-router-dom';
 
 const Menus = () => {
     const [tabIndex, setTabIndex] = useState(0);
@@ -15,23 +16,21 @@ const Menus = () => {
     const milkshake = menu.filter(item => item.categori === "milkshake")
     const cake = menu.filter(item => item.categori === "cake")
     return (
-        <div>
+        <div className='max-w-screen-xl mx-auto'>
             <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/0Xc9N8p/image.png)' }}>
                 <div className="hero-overlay bg-opacity-30"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Our Menus</h1>
-                        <button className="btn btn-outline btn-neutral px-8 text-white">Home</button>
+                        <h1 className='text-[#FFCC00] text-5xl mt-12 font-semibold mb-2'>Menu</h1>
+                        <h1 className='text-3xl italic mb-5 font-bold text-white'>Just Choose From The Best</h1>
+
+                        <Link className="text-red-500 text-xl hover:bg-yellow-400 px-5 rounded-full" to={'/'}>Home</Link>
                     </div>
                 </div>
             </div>
-           <div className='text-center'>
-                <h1 className='text-[#FFCC00] text-2xl mt-12 font-semibold mb-2'>Menu</h1>
-                <h1 className='text-5xl mb-5 font-bold text-white'>Just Choose From The Best</h1>
-
-           </div>
+         
             {/* card ssss */}
-            <div className='flex justify-center'> 
+            <div className='flex justify-center items-center'> 
 
               
                 <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className=" mt-16">

@@ -2,7 +2,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel';
 const Banner = () => {
     return (
-        <div>
+        <div className="max-w-screen-xl mx-auto">
     
          
 

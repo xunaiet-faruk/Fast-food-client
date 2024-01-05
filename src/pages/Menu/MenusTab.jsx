@@ -1,12 +1,12 @@
 
 
-const MenusTab = ({ label, icon:Icon}) => {
-    return (
-        <div className="bg-white">
+// const MenusTab = ({ label, image}) => {
+//     return (
+//         <div className="bg-white">
      
-     <Icon/>
-        </div>
-    );
-};
+//      <img src={image} alt="" />
+//         </div>
+//     );
+// };
 
-export default MenusTab;
+// export default MenusTab;
