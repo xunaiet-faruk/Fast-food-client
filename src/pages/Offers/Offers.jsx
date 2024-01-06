@@ -39,7 +39,7 @@ const Offers = () => {
                       </div>
                  
                           
-                      <div className="bg-[#FFCC00] hover:bg-red-600 absolute p-8 rounded-bl-full border ml-[500px] mb-[220px] border-red-600">
+                      <div className="bg-[#FFCC00] hover:bg-red-600 absolute p-8 rounded-bl-full border ml-[500px] mb-[240px] border-red-600">
                     <h1 className="text-white font-bold">$ {item.price}</h1>
                     </div>
                     

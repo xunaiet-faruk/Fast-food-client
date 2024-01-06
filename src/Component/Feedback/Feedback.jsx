@@ -81,20 +81,22 @@ const Feedback = () => {
                     </Swiper>
                </div>
                
-                <div className="max-w-screen-xl mx-auto">
+                <div className="max-w-screen-xl mx-auto ">
 
                         <div className="relative ml-44">
                         <img className="w-[500px] rounded-xl" src={"https://i.ibb.co/dMSTDwD/image.png"} alt="" />
                         </div>
-                        <div className=" absolute -mt-48 left-[640px]">
-                        <img className="w-60 rounded-full" src={"https://winsfolio.net/html/foodio/assets/img/bratlee-hamint-3.jpg"} alt="" />
+                       <div>
+                        <div className=" absolute -mt-44 left-[640px]">
+                            <img className="w-60 rounded-full" src={"https://winsfolio.net/html/foodio/assets/img/bratlee-hamint-3.jpg"} alt="" />
                         </div>
-                        <div className="absolute -mt-[520px] left-[640px]">
-                        <img className="w-60 h-56 rounded-full" src={"https://i.ibb.co/SJWvnxz/image.png"} alt="" />
+                        <div className="absolute -mt-[550px] left-[640px]">
+                            <img className="w-60 h-56 rounded-full" src={"https://i.ibb.co/SJWvnxz/image.png"} alt="" />
                         </div>
                         <div className="absolute -mt-[360px] left-[460px]">
-                        <img className="w-64 h-56 rounded-full" src={"https://i.ibb.co/Z6t5byF/image.png"} alt="" />
+                            <img className="w-64 h-56 rounded-full" src={"https://i.ibb.co/Z6t5byF/image.png"} alt="" />
                         </div>
+                       </div>
 
                       
                 </div>
