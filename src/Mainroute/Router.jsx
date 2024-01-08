@@ -10,6 +10,7 @@ import Shop from "../pages/Shop/Shop";
 import Contact from "../pages/Contact/Contact";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
+import Privateroute from "./Privateroute";
 
 export  const router = createBrowserRouter([
     {
@@ -30,7 +31,7 @@ export  const router = createBrowserRouter([
             },
             {
                 path: '/shop',
-                element: <Shop/>
+                element: <Privateroute> <Shop /></Privateroute>
             },
             {
                 path:'/contact',

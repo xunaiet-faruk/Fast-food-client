@@ -1,6 +1,14 @@
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { Authcontext } from "../../Firebase/Authprovider";
 
 const Navbar = () => {
+    const {logout,user} =useContext(Authcontext)
+    const handleLogout =() =>{
+        logout()
+        .then(() =>{} )
+        .catch(error =>console.log(error))
+    }
     const links =<>
     
         <li><NavLink
@@ -42,15 +50,30 @@ const Navbar = () => {
             }
         >
           Contact
-        </NavLink></li>
-        <li><NavLink
-            to="/login"
-            className={({ isActive, isPending }) =>
-                isPending ? "bg-red-600 text-white" : isActive ? "active" : ""
-            }
-        >
-          Login
-        </NavLink></li>
+        </NavLink>
+        </li>
+
+    {user ? <>
+            <li><NavLink onClick={handleLogout}
+                
+                className={({ isActive, isPending }) =>
+                    isPending ? "bg-red-600 text-white" : isActive ? "active" : ""
+                }
+            >
+               Logout
+            </NavLink></li>
+    
+    </> :
+    <>
+                <li><NavLink
+                    to="/login"
+                    className={({ isActive, isPending }) =>
+                        isPending ? "bg-red-600 text-white" : isActive ? "active" : "text-red-400"
+                    }
+                >
+                    Login
+                </NavLink></li>
+    </>}
     
     </>
     return (
