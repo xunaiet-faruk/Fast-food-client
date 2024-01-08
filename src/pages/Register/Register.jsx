@@ -1,22 +1,29 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import image from '../../assets/image-removebg-preview (32).png'
 import { useContext } from 'react';
 import { Authcontext } from '../../Firebase/Authprovider';
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2';
 const Register = () => {
-    const { createUser } = useContext(Authcontext)
+    const nablink =useNavigate()
+    const { createUser, updateUserprofile } = useContext(Authcontext)
     const {
         register,
         formState: { errors },
         handleSubmit,
+        reset
         
     } = useForm()
     const onSubmit = (data) => {
+        console.log("data",data);
         createUser(data.email,data.password)
         .then(res => {
             const logedUser =res.user
-           if(logedUser){
+            console.log(logedUser);
+            updateUserprofile(data.name, data.photoURL)
+           .then(() =>{
+            console.log("updated user profile");
+            reset();
                Swal.fire({
                    position: "top-end",
                    icon: "success",
@@ -24,7 +31,12 @@ const Register = () => {
                    showConfirmButton: false,
                    timer: 1500
                });
-           }
+               nablink('/')
+           })
+           .catch(error =>console.log(error))
+              
+               
+         
         })
 
     }
@@ -52,7 +64,7 @@ const Register = () => {
                             </div>
                             <div className="form-control mb-4">
 
-                                <input name='photo'  {...register("url", { required: true })} type="url" placeholder="Photo" className="input input-bordered"  required/>
+                                <input name='photo'  {...register("photoURL", { required: true })} type="url" placeholder="Photo" className="input input-bordered"  required/>
                             </div>
                             <div className="form-control">
                                

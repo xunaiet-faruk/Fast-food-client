@@ -1,5 +1,5 @@
 
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import avator from '../../assets/image-removebg-preview (30).png'
 import { useContext } from 'react';
 import { Authcontext } from '../../Firebase/Authprovider';
@@ -7,6 +7,11 @@ import Swal from 'sweetalert2';
 const Login = () => {
 
     const {signIn } =useContext(Authcontext)
+    const navigate =useNavigate()
+    const location =useLocation()
+
+const from =location.state?.from?.pathname || "/"
+
     const handlesubmit = e =>{
         e.preventDefault();
         const form =e.target;
@@ -20,6 +25,7 @@ const Login = () => {
                     icon: "success",
                     text: "successfully login user",
                 });
+                navigate(from , {replace : true})
             }
         })
         .catch(error => console.log(error))

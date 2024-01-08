@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Authcontext } from "../../Firebase/Authprovider";
 
 const Navbar = () => {
@@ -54,14 +54,7 @@ const Navbar = () => {
         </li>
 
     {user ? <>
-            <li><NavLink onClick={handleLogout}
-                
-                className={({ isActive, isPending }) =>
-                    isPending ? "bg-red-600 text-white" : isActive ? "active" : ""
-                }
-            >
-               Logout
-            </NavLink></li>
+           
     
     </> :
     <>
@@ -94,10 +87,71 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1">
                        {links}
                     </ul>
+                  
                 </div>
+
+                
+                {
+                    user &&
+                    <div className="dropdown dropdown-end">
+                        <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+                            <div className="w-10 rounded-full">
+
+                                {
+
+                                    user ? <img className="w-12  rounded-full h-12" src={user.photoURL}></img> : ''
+
+
+                                }
+
+                            </div>
+                        </div>
+                        <ul tabIndex={0} className="mt-3 z-[1] p-2   bg-black shadow menu menu-sm dropdown-content text-xl font-bold italic rounded-box w-52">
+
+                            <li className="mb-2 hover:bg-red-500 rounded-xl"><Link>Dashboard</Link></li>
+                            {
+
+
+                                user ? <>
+
+                                    <li className="hover:bg-red-500 rounded-xl"><NavLink onClick={handleLogout}
+
+                                        className={({ isActive, isPending }) =>
+                                            isPending ? "" : isActive ? "hover:bg-red-500" : ""
+                                        }
+                                    >
+                                        Logout
+                                    </NavLink></li>
+                                </>
+                                    :
+                                    <>
+                                        <li>
+                                            <NavLink
+                                                to="/login"
+                                                className={({ isActive, isPending }) =>
+                                                    isPending ? "pending" : isActive ? "active" : ""
+                                                }
+                                            >
+                                                Login
+                                            </NavLink>
+
+                                        </li>
+
+
+
+                                    </>
+
+
+                            }
+                        </ul>
+                    </div>
+                }
+               
+            
                
             </div>
         </div>
+        
     );
 };
 
