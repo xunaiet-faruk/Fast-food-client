@@ -4,9 +4,10 @@ import avator from '../../assets/image-removebg-preview (30).png'
 import { useContext } from 'react';
 import { Authcontext } from '../../Firebase/Authprovider';
 import Swal from 'sweetalert2';
+import { FcGoogle } from 'react-icons/fc';
 const Login = () => {
 
-    const {signIn } =useContext(Authcontext)
+    const { signIn, googleSign } =useContext(Authcontext)
     const navigate =useNavigate()
     const location =useLocation()
 
@@ -31,6 +32,14 @@ const from =location.state?.from?.pathname || "/"
         .catch(error => console.log(error))
     }
 
+    const handleLogin = () =>{
+        googleSign()
+        .then(res =>{
+            console.log(res.user)
+            navigate(location?.state ? location.state : '/')
+
+        }).catch(erro =>console.log(erro))
+    }
 
     return (
         <div className='flex justify-center items-center'>
@@ -40,9 +49,7 @@ const from =location.state?.from?.pathname || "/"
                             <form onSubmit={handlesubmit} className="card-body pt-6">
                                
                                 <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text">Email</span>
-                                    </label>
+                                 
                                     <input name='email' type="email" placeholder="email" className="input input-bordered" required />
                                 </div>
                                 <div className="form-control">
@@ -50,13 +57,16 @@ const from =location.state?.from?.pathname || "/"
                                         <span className="label-text">Password</span>
                                     </label>
                                     <input name='password' type="password" placeholder="password" className="input input-bordered" required />
-                                    <label className="label">
-                                        <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                                    </label>
+                                   
                                 </div>
                                 <div className="form-control mt-6">
                                     <button className="btn bg-yellow-300 text-bold">Login</button>
                                 </div>
+                        <h1 className='text-white font-bold text-center'>Or</h1>
+
+                        <div className="form-control ">
+                            <button onClick={handleLogin} className="btn btn-neutral hover:bg-yellow-300 hover:text-black"><FcGoogle className='text-xl'></FcGoogle> Google</button>
+                        </div>
                         <p className='text-center font-semibold text-white'>You are new please go to <Link to={'/register'} className='text-green-700'>Ragister</Link></p>
 
                             </form>

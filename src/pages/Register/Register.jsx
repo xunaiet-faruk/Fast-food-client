@@ -4,9 +4,11 @@ import { useContext } from 'react';
 import { Authcontext } from '../../Firebase/Authprovider';
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2';
+import { FcGoogle } from "react-icons/fc";
+
 const Register = () => {
     const nablink =useNavigate()
-    const { createUser, updateUserprofile } = useContext(Authcontext)
+    const { createUser, updateUserprofile, googleSign } = useContext(Authcontext)
     const {
         register,
         formState: { errors },
@@ -38,6 +40,19 @@ const Register = () => {
                
          
         })
+
+    }
+
+    const handleGoogle = () =>{
+        googleSign()
+        .then(res => {
+            console.log(res.user);
+            nablink(location?.state ? location.state : '/')
+
+        })
+            .catch(error => {
+                console.log(error)
+            })
 
     }
 
@@ -77,6 +92,10 @@ const Register = () => {
                           
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary">Login</button>
+                            </div>
+                            <h1 className='text-white font-bold text-center'>Or</h1>
+                            <div className="form-control ">
+                                <button onClick={handleGoogle} className="btn btn-neutral hover:bg-blue-700"><FcGoogle className='text-xl'></FcGoogle> Google</button>
                             </div>
                             <p className='text-center font-semibold text-white'>Already Have an account go to <Link to={'/login'} className='text-green-400'>Login</Link></p>
                         </form>
