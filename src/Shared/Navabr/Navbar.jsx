@@ -1,9 +1,13 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Authcontext } from "../../Firebase/Authprovider";
+import { IoNotifications } from "react-icons/io5";
+import Usecard from "../../Hooks/Usecard";
 
 const Navbar = () => {
+    const [card] =Usecard()
     const {logout,user} =useContext(Authcontext)
+   
     const handleLogout =() =>{
         logout()
         .then(() =>{} )
@@ -51,6 +55,15 @@ const Navbar = () => {
         >
           Contact
         </NavLink>
+        </li>
+        <li>
+            <button className="hover:bg-red-600">
+                <IoNotifications className="text-xl"/>
+
+                <div className=" hover:bg-red-600">{card.length}</div>
+
+            </button>
+        
         </li>
 
     {user ? <>
@@ -108,7 +121,7 @@ const Navbar = () => {
                         </div>
                         <ul tabIndex={0} className="mt-3 z-[1] p-2   bg-black shadow menu menu-sm dropdown-content text-xl font-bold italic rounded-box w-52">
 
-                            <li className="mb-2 hover:bg-red-500 rounded-xl"><Link>Dashboard</Link></li>
+                            <li className="mb-2 hover:bg-red-500 rounded-xl"><Link to={'/dashboard'}>Dashboard</Link></li>
                             {
 
 

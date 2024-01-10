@@ -12,6 +12,7 @@ const Login = () => {
     const location =useLocation()
 
 const from =location.state?.from?.pathname || "/"
+console.log("sates location here",location.state);
 
     const handlesubmit = e =>{
         e.preventDefault();
