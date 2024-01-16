@@ -11,6 +11,11 @@ import Contact from "../pages/Contact/Contact";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import Privateroute from "./Privateroute";
+import Dashboard from "../pages/Dashboard/Dashboard";
+import Card from "../pages/Dashboard/Card";
+import Allusers from "../pages/Dashboard/Allusers/Allusers";
+import Aditems from "../pages/Dashboard/Aditems/Aditems";
+import Adminroute from "./Adminroute";
 
 export  const router = createBrowserRouter([
     {
@@ -48,5 +53,24 @@ export  const router = createBrowserRouter([
     
     ]
     },
+    {
+        path:'dashboard',
+        element: <Privateroute><Dashboard /></Privateroute>,
+        children:[{
+            path:'card',
+            element:<Card/>
+        },
+
+        // admin routes 
+    {
+        path:'Allusers',
+        element: <Adminroute><Allusers /></Adminroute>
+    },
+    {
+        path:'add',
+        element: <Adminroute><Aditems /></Adminroute>
+    }
+]
+    }
 ]);
 

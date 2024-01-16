@@ -5,8 +5,10 @@ import { Authcontext } from '../../Firebase/Authprovider';
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2';
 import { FcGoogle } from "react-icons/fc";
+import UseaxiosPublic from '../../Hooks/UseaxiosPublic';
 
 const Register = () => {
+    const AxiosPublic =UseaxiosPublic()
     const nablink =useNavigate()
     const { createUser, updateUserprofile, googleSign } = useContext(Authcontext)
     const {
@@ -17,23 +19,37 @@ const Register = () => {
         
     } = useForm()
     const onSubmit = (data) => {
-        console.log("data",data);
+      
         createUser(data.email,data.password)
         .then(res => {
             const logedUser =res.user
             console.log(logedUser);
             updateUserprofile(data.name, data.photoURL)
            .then(() =>{
-            console.log("updated user profile");
-            reset();
-               Swal.fire({
-                   position: "top-end",
-                   icon: "success",
-                   title: "Successfully register ",
-                   showConfirmButton: false,
-                   timer: 1500
-               });
-               nablink('/')
+            const userInfo ={
+                name:data.name,
+                email:data.email
+            }
+
+            AxiosPublic.post('/users',userInfo)
+            .then(res =>{
+               
+                if(res.data.insertedId){
+                   
+                    reset();
+                    Swal.fire({
+                        position: "top-end",
+                        icon: "success",
+                        title: "Successfully register ",
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+                    nablink('/')
+                }
+
+            })
+         
+       
            })
            .catch(error =>console.log(error))
               
@@ -46,8 +62,16 @@ const Register = () => {
     const handleGoogle = () =>{
         googleSign()
         .then(res => {
-            console.log(res.user);
-            nablink(location?.state ? location.state : '/')
+           const userData ={
+            name : res?.user?.displayName,
+            email : res?.user?.email
+           }
+           AxiosPublic.post('/users',userData)
+           .then(res =>{
+            console.log(res.data);
+             nablink(location?.state ? location.state : '/')
+           })
+           
 
         })
             .catch(error => {

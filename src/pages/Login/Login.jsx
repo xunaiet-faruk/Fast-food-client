@@ -5,8 +5,9 @@ import { useContext } from 'react';
 import { Authcontext } from '../../Firebase/Authprovider';
 import Swal from 'sweetalert2';
 import { FcGoogle } from 'react-icons/fc';
+import UseaxiosPublic from '../../Hooks/UseaxiosPublic';
 const Login = () => {
-
+    const AxiosPublic =UseaxiosPublic()
     const { signIn, googleSign } =useContext(Authcontext)
     const navigate =useNavigate()
     const location =useLocation()
@@ -35,11 +36,19 @@ console.log("sates location here",location.state);
 
     const handleLogin = () =>{
         googleSign()
-        .then(res =>{
-            console.log(res.user)
-            navigate(location?.state ? location.state : '/')
+            .then(res => {
+                const userData = {
+                    name: res?.user?.displayName,
+                    email: res?.user?.email
+                }
+                AxiosPublic.post('/users', userData)
+                    .then(res => {
+                        console.log(res.data);
+                        navigate(location?.state ? location.state : '/')
+                    })
 
-        }).catch(erro =>console.log(erro))
+
+            }).catch(erro =>console.log(erro))
     }
 
     return (
